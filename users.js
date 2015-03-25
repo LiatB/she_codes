@@ -1,4 +1,3 @@
-
 //users/get_active_users_by_rating
 $(document).ready(function get_active_users_by_rating()
 {
