@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en">
+ 
+<head>
+<title>SheCodes</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+<script src="login.js"></script>
+<script src="connection/ajaxfunc.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="login.css">
+
+</head>
+<body id="main_content">
+
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+
+<div id="status">
+</div>
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+<h1>She Codes</h1>
+<div>
+<form>
+<input type="email" id = "email" name="email" placeholder="Email address"></p><br>
+<input type="password"  id = "password" name="pwd" placeholder="Password"></p><br>
+<a href='javaScript:login();' class="button">Login</a><br>
+<br>
+<br><a href="http://www.shecodes.workingclock.com/login/fb_login?uri=http://localhost/shecon/fblogin.html" class='button'>Login with Facebook</a><br><br>
+<a href=''>Forgot Password?</a>
+</div>
+</form>
+</body>
+</html>

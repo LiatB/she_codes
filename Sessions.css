@@ -1,0 +1,61 @@
+body{
+background-image: url("img/Background.png");
+background-size: 100%;
+}
+.col-lg-8{
+background-color:white;
+ height: 600px;
+ overflow: scroll;
+}
+h1{
+  color: white ! important; 
+  font-size: 30px;
+  font-family: Cursive;
+  margin-left:50px;
+  text-align:center;
+  font-family:helvatika;
+}
+.col-lg-8{
+  font-size: 30px;
+  font-family: Cursive;
+  margin-left:50px;
+  text-align:center;
+  font-family:helvatika;
+}
+#face
+{
+   border-radius: 100%;
+   width:120px;
+   height:120px;
+   }
+
+.badge
+{
+  height: 60px;
+  width: 60px;
+  position: relative;
+  right: 60px;
+}
+.name{
+color:black;
+font-size: 18px;
+font-family: Cursive;
+margin:5px;
+}
+.lastname{
+color:black;
+font-size: 18px;
+font-family: Cursive;
+width:50px;
+margin:0px;
+}
+#allUsers{
+ height: 600px;
+ overflow: scroll;
+}
+.img-with-text{
+width: 230px;
+height: 230px;
+float:left;
+padding:30px;
+}

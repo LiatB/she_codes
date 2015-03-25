@@ -1,0 +1,28 @@
+to do:
+1. connect the login page to the users page
+2. create a login with fb function using the ID masha sent to me
+3. arrange the function for the users to take all pics and solve case of no pics (if pic = null??? or maybe have a default pic?)
+4. improve css design 
+5. upload all to github
+6. organize html code with div, ul and li similar to the cpdeacademy example. change css in accordance - check more samples
+7. build missions for other group members
+ 
+order:
+1. login screen:
+   1. e-mail+password - function
+   2. fb login - fb login function
+   3. forgot password - function (later)
+2. users screen: 
+   1. uploads all users (functionality: get_users_by_rating) 
+   2. admin: add user (later)
+3. sample user (short):
+   1. name
+   2. pic
+   3. rating badge 
+4. sample user (full profile):
+   1. name
+   2. pic
+   3. rating 
+   4. projects
+   5. programming knowledge
+

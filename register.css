@@ -1,0 +1,26 @@
+body{
+background-image: url("img/Background.png");
+background-size: 100%;
+}
+h1{
+color:white !important;
+text-align:center;
+} 
+form {
+	color: white;
+	font-family:helvetica;
+	margin:auto;
+	    }
+fieldset{
+width:400px;
+text-align:left;
+margin:auto;
+border: 5px solid;
+}
+legend{
+text-align: center;
+}
+#checkBoxform{
+width:90%;
+height:20px;
+}

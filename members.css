@@ -1,0 +1,8 @@
+body{
+background-image: url("img/Background.png");
+background-size: 100%;
+}
+h1{
+color:white !important;
+text-align:center;
+}

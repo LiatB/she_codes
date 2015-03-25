@@ -1,0 +1,85 @@
+body{
+background-image: url("img/Background.png");
+background-size: 100%;
+}
+h1{
+color:white;
+text-align:center;
+} 
+form {
+	text-align: center;
+	color: white;
+	font-family:helvetica;
+    }
+
+.button{
+   border: 1px solid #518db0;
+   background: #4b8ab5;
+   background: -webkit-gradient(linear, left top, left bottom, from(#59abde), to(#4b8ab5));
+   background: -webkit-linear-gradient(top, #59abde, #4b8ab5);
+   background: -moz-linear-gradient(top, #59abde, #4b8ab5);
+   background: -ms-linear-gradient(top, #59abde, #4b8ab5);
+   background: -o-linear-gradient(top, #59abde, #4b8ab5);
+   background-image: -ms-linear-gradient(top, #59abde 0%, #4b8ab5 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #f7f7f7;
+   font-size: 15px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#77add1), to(#3e779d));
+   background: -webkit-linear-gradient(top, #77add1, #3e779d);
+   background: -moz-linear-gradient(top, #77add1, #3e779d);
+   background: -ms-linear-gradient(top, #77add1, #3e779d);
+   background: -o-linear-gradient(top, #77add1, #3e779d);
+   background-image: -ms-linear-gradient(top, #77add1 0%, #3e779d 100%);
+   color: #fff;
+   }
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+
+}
+#face{
+   border-radius: 100%;
+   }
+
+.badge
+{
+  height: 60px;
+  width: 60px;
+  position: relative;
+  right: 60px;
+   
+}
+.name{
+color:white;
+font-size: 18px;
+font-family: Cursive;
+position: relative;
+left:30px;
+}
+
+.loginButton{
+
+   }

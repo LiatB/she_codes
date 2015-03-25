@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+ 
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+<script src="connection/ajaxfunc.js"></script>
+<script>
+		
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+getCode = getParameterByName("code");
+if(getCode != "")
+{
+
+	fb_login(getCode);
+}
+
+function fb_login(code)
+{
+	postinfo ={
+		fbcode:code,
+		url:'login/fb_login'
+	}
+	ajaxCall(postinfo,function(response){
+			if(response.error[0].code == 0)
+				location = "users.html";	
+			else
+				alert(JSON.stringify(response));
+	});
+}
+</script>
+</head>
+	
+<body>
+</body>
+</html>

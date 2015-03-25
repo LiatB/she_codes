@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>SheCodes</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+<script src="login.js"></script>
+<script src="connection/ajaxfunc.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="register.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body id="main_content">
+<h1>Welcome to SheCodes!</h1>
+
+<div>
+<!-- add active to every page in the menue [art according to the page im on-->
+<!-- <form  method="post" name="registrationForm" onsubmit="return(validate());">
+<fieldset> 
+<legend>Registration Form</legend>
+    <p>First Name: <input type="text" id="checkBoxform" name="firstname" ></p><br>
+    <p>Last Name:<input type="text"  id="checkBoxform" name="lastname"></p><br>
+	<p>Email:<input type="email"  id="checkBoxform" name="email"></p><br>
+    <p>Choose a Password:<input type="password"  id="checkBoxform" name="pwd"></p><br>
+	 <p>Confirm Password:<input type="password"  id="checkBoxform" name="cnfrm_pwd"></p><br>
+	  <p><input type="submit" value="Submit"></p>
+	 </fieldset>
+</form> -->
+<!-- add phone + pic url (optional) -->
+<form class="form-horizontal" role="form">
+   <div class="form-group">
+      <label for="firstName" class="col-sm-3 control-label">First Name</label> <!--optional-->
+      <div class="col-sm-6">
+         <input type="text" class="form-control" id="firstName" 
+            placeholder="Enter First Name">
+      </div>
+   </div>
+   <div class="form-group">
+      <label for="lastName" class="col-sm-3 control-label">Last Name</label>  <!--optional-->
+      <div class="col-sm-6">
+         <input type="text" class="form-control" id="lastName" 
+            placeholder="Enter Last Name">
+      </div>
+   </div>
+   <div class="form-group">
+      <label for="email" class="col-sm-3 control-label">Email</label>
+      <div class="col-sm-6">
+         <input type="email" class="form-control" id="email" 
+            placeholder="Enter Email address" required>
+      </div>
+   </div>
+   <div class="form-group">
+      <label for="password" class="col-sm-3 control-label">Choose a Password</label>
+      <div class="col-sm-6">
+         <input type="password" class="form-control" id="password" 
+            placeholder="Enter password" required>
+      </div>
+   </div>
+   <div class="form-group">
+      <label for="confirm password" class="col-sm-3 control-label">Confirm Password</label>
+      <div class="col-sm-6">
+         <input type="password" class="form-control" id="confirm_password" data-match="#password" data-match-error="Whoops, these don't match" 
+            placeholder="Retype password" required>
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-offset-3 col-sm-6">
+         <div  onclick="register();" class="btn btn-default">Sign in</div>
+      </div>
+   </div>
+</form>
+</body>
+</html>

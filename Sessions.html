@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="en">
+<title>Sessions</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+<script src="Sessions.js"></script>
+<script src="connection/ajaxfunc.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="Sessions.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+     <div class="container"> 
+	     <div class="navbar-header"> 
+	       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+		         <span class="sr-only">Toggle navigation</span>
+		         <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+		   </button>
+		   <a class="navbar-brand" href="#">SheCodes;</a>
+	     </div>
+	     <div class="navbar-collapse collapse"> 
+		 <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="#">MyProfile</a></li>
+			 <li class="active"><a href="#">Sessions</a></li>
+			 <li class="active"><a href="#">Projects</a></li>
+			 <li class="active"><a href="#">Members</a></li>
+		 </ul>
+		 </div>
+     </div>
+ </div>
+<br><br><br><br>
+<h1>Find your Session</h1>
+<!--trying to create sidebar-->
+<div class = "col-lg-3">
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('TLV HackNight'); get_active_users_by_rating()">TLV HackNight</h4>
+</a>
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('TLV HackDay') ;get_active_users_by_rating()">TLV HackDay</h4>
+</a>
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('TLV Uni')  ;get_active_users_by_rating()">TLV Uni</h4>
+</a>
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('IDC')  ;get_active_users_by_rating()">IDC</h4>
+</a>
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('Modi'in') ;get_active_users_by_rating()">Modi'in</h4>
+</a>
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('Ben-Gurion Uni')  ;get_active_users_by_rating()">Ben-Gurion Uni</h4>
+</a>
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('Technion')  ;get_active_users_by_rating()">Technion</h4>
+</a>
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('Jerusalem')  ;get_active_users_by_rating()">Jerusalem</h4>
+</a>
+<a href ="#" class = "list-group-item">
+<h4 class =" list-group-item heading" onclick="clickmenu('Haifa Uni')  ;get_active_users_by_rating()">Haifa Uni</h4>
+</a>
+</div>
+<div class = "col-lg-8">
+<div id="sessionLocation"></div>
+<div id="allUsers"></div>
+</div>
+
+
+
+<!--<div id="wrapper">
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#">Home</a></li>
+            <li><a href="#">Another link</a></li>
+            <li><a href="#">Next link</a></li>
+            <li><a href="#">Last link</a></li>
+        </ul>
+    </div>
+    <div id="page-content-wrapper">
+        <div class="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- content of page
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  -->
+</body>
+</html>

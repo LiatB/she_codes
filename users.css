@@ -1,0 +1,119 @@
+
+body{
+background-image: url("img/Background.png");
+background-size: 100%;
+} 
+h1{
+  color: white ! important; 
+  font-size: 30px;
+  font-family: Cursive;
+  margin-left:50px;
+  text-align:center;
+  font-family:helvatika;
+}
+
+/*div{
+  float: left;
+  margin: 0 15px 5px 0
+ }
+*/
+.face
+{
+   border-radius: 100%;
+   width:120px;
+   height:120px;
+   }
+
+.badge
+{
+  height: 60px;
+  width: 60px;
+  position: relative;
+  right: 60px;
+}
+.name{
+color:white;
+font-size: 18px;
+font-family: Cursive;
+margin:5px;
+}
+.lastname{
+color:white;
+font-size: 18px;
+font-family: Cursive;
+width:50px;
+margin:0px;
+}
+.rating{
+background-color:pink;
+position: relative;
+border-radius:100%;
+float:right;
+width:40%;
+margin-top:-30%;
+margin-right:10%;
+text-align:center;
+
+}
+#allUsers{
+ height: 600px;
+ overflow: scroll;
+}
+.img-with-text{
+width: 230px;
+height: 230px;
+float:left;
+padding:30px;
+cursor:pointer;
+}
+#overlay_div{
+width:250px;
+height: 300px;
+background-color:white;
+display:none;
+margin: 0 auto;
+position: absolute;
+top:10%;
+right:50%;
+}
+#close_btn{
+cursor:pointer;
+width: 30px;
+line-height: 30px;
+background: #000;
+color: #fff;
+text-align:center;
+font-size:16px;
+font-weight: bold;
+box-shadow: 0 0 20px #777;
+position: absolute;
+top: -10px;
+right:-10px;
+border: black;
+}
+.user_popup {
+    position: absolute;
+    left: 15%;
+}
+.user_popup p{
+color:black;
+left: 20%;
+}
+.user_popup >.rating{
+left:0%;
+}
+.col-lg-6{
+ 
+}
+#add-rating{
+ float:left;}
+#session-date{
+ float:right;} */
+ 
+ #modal_users{
+ height: 600px;
+ }
+
+
+
+
